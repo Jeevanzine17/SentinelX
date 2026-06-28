@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# Virtual Environment
+venv/
+backend/venv/
+.env
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Database
+*.db
+
+# Node
+node_modules/
+
+# React
+frontend/dist/
+frontend/.vite/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
