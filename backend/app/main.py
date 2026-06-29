@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from app.api.project_router import router as project_router
 from app.auth.router import router as auth_router
 from app.api.target_router import router as target_router
+from app.api.recon_router import router as recon_router
 
 app = FastAPI(
     title="SentinelX API",
@@ -11,6 +12,7 @@ app = FastAPI(
 app.include_router(auth_router)
 app.include_router(project_router)
 app.include_router(target_router)
+app.include_router(recon_router)
 
 @app.get("/")
 def root():
